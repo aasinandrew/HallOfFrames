@@ -14,6 +14,11 @@
 		BB315C781B603BC000C4E5AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB315C771B603BC000C4E5AB /* Images.xcassets */; };
 		BB315C7B1B603BC000C4E5AB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB315C791B603BC000C4E5AB /* LaunchScreen.xib */; };
 		BB315C871B603BC000C4E5AB /* HallOfFramesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB315C861B603BC000C4E5AB /* HallOfFramesTests.m */; };
+		BB315C921B6040ED00C4E5AB /* Picture.m in Sources */ = {isa = PBXBuildFile; fileRef = BB315C911B6040ED00C4E5AB /* Picture.m */; };
+		BB315C961B60472D00C4E5AB /* PictureCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB315C951B60472D00C4E5AB /* PictureCollectionViewCell.m */; };
+		BB315C981B604B0B00C4E5AB /* CustomizationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB315C971B604B0B00C4E5AB /* CustomizationView.xib */; };
+		BB315C9B1B604B3300C4E5AB /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB315C9A1B604B3300C4E5AB /* CustomView.m */; };
+		BB315C9E1B60551100C4E5AB /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB315C9D1B60551100C4E5AB /* ModalViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +45,15 @@
 		BB315C801B603BC000C4E5AB /* HallOfFramesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HallOfFramesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB315C851B603BC000C4E5AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BB315C861B603BC000C4E5AB /* HallOfFramesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HallOfFramesTests.m; sourceTree = "<group>"; };
+		BB315C901B6040ED00C4E5AB /* Picture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Picture.h; sourceTree = "<group>"; };
+		BB315C911B6040ED00C4E5AB /* Picture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Picture.m; sourceTree = "<group>"; };
+		BB315C941B60472D00C4E5AB /* PictureCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureCollectionViewCell.h; sourceTree = "<group>"; };
+		BB315C951B60472D00C4E5AB /* PictureCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureCollectionViewCell.m; sourceTree = "<group>"; };
+		BB315C971B604B0B00C4E5AB /* CustomizationView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizationView.xib; sourceTree = "<group>"; };
+		BB315C991B604B3300C4E5AB /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		BB315C9A1B604B3300C4E5AB /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+		BB315C9C1B60551100C4E5AB /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		BB315C9D1B60551100C4E5AB /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,8 +99,16 @@
 				BB315C6F1B603BC000C4E5AB /* AppDelegate.m */,
 				BB315C711B603BC000C4E5AB /* ViewController.h */,
 				BB315C721B603BC000C4E5AB /* ViewController.m */,
-				BB315C741B603BC000C4E5AB /* Main.storyboard */,
+				BB315C971B604B0B00C4E5AB /* CustomizationView.xib */,
+				BB315C991B604B3300C4E5AB /* CustomView.h */,
+				BB315C9A1B604B3300C4E5AB /* CustomView.m */,
+				BB315C9C1B60551100C4E5AB /* ModalViewController.h */,
+				BB315C9D1B60551100C4E5AB /* ModalViewController.m */,
+				BB315C931B6040F600C4E5AB /* Model */,
 				BB315C771B603BC000C4E5AB /* Images.xcassets */,
+				BB315C741B603BC000C4E5AB /* Main.storyboard */,
+				BB315C941B60472D00C4E5AB /* PictureCollectionViewCell.h */,
+				BB315C951B60472D00C4E5AB /* PictureCollectionViewCell.m */,
 				BB315C791B603BC000C4E5AB /* LaunchScreen.xib */,
 				BB315C6A1B603BC000C4E5AB /* Supporting Files */,
 			);
@@ -117,6 +139,15 @@
 				BB315C851B603BC000C4E5AB /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB315C931B6040F600C4E5AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BB315C901B6040ED00C4E5AB /* Picture.h */,
+				BB315C911B6040ED00C4E5AB /* Picture.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +232,7 @@
 			files = (
 				BB315C761B603BC000C4E5AB /* Main.storyboard in Resources */,
 				BB315C7B1B603BC000C4E5AB /* LaunchScreen.xib in Resources */,
+				BB315C981B604B0B00C4E5AB /* CustomizationView.xib in Resources */,
 				BB315C781B603BC000C4E5AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +251,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB315C921B6040ED00C4E5AB /* Picture.m in Sources */,
+				BB315C961B60472D00C4E5AB /* PictureCollectionViewCell.m in Sources */,
+				BB315C9E1B60551100C4E5AB /* ModalViewController.m in Sources */,
 				BB315C731B603BC000C4E5AB /* ViewController.m in Sources */,
 				BB315C701B603BC000C4E5AB /* AppDelegate.m in Sources */,
 				BB315C6D1B603BC000C4E5AB /* main.m in Sources */,
+				BB315C9B1B604B3300C4E5AB /* CustomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +318,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;

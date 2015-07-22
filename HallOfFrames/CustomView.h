@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CustomView.h
 //  HallOfFrames
 //
 //  Created by Andrew  Nguyen on 7/22/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController <UICollectionViewDataSource, UICollectionViewDelegate>
-
+@interface CustomView : UIView
+@property (weak, nonatomic) IBOutlet NSObject *customView;
 
 @end
-
